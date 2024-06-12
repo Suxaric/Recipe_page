@@ -23,6 +23,7 @@ body {
   margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 100px;
   width: 768px;
   background-color: var(--White);
 }
@@ -34,4 +35,29 @@ body {
 .wrapper img {
   width: 100%;
 }
+
+.wrapper h1 {
+  font-family: Young Serif, sans-serif;
+  font-weight: 400;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.wrapper p {
+  font-family: Outfit, sans-serif;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.wrapper-preparation {
+  background-color: var(--Rose-White);
+  padding: 15px;
+}
+
+.wrapper-preparation h3 {
+  font-family: Outfit, sans-serif;
+  font-weight: 600;
+
+}
+
 
