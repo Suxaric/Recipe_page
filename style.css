@@ -18,3 +18,20 @@
 body {
   background-color: var(--Eggshell);
 }
+
+.container {
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 768px;
+  background-color: var(--White);
+}
+
+.wrapper {
+  padding: 30px;
+}
+
+.wrapper img {
+  width: 100%;
+}
+
