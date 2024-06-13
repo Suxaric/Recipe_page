@@ -57,7 +57,9 @@ body {
 .wrapper-preparation h3 {
   font-family: Outfit, sans-serif;
   font-weight: 600;
-
 }
 
-
+.list-preparation {
+  padding-top: 1.5em;
+  line-height: 1.5em;
+}
