@@ -13,6 +13,8 @@
   --Light-Grey: hsl(30, 18%, 87%);
   --Wenge-Brown: hsl(30, 10%, 34%);
   --Dark-Charcoal: hsl(24, 5%, 18%);
+  --Nutmeg: hsl(14, 45%, 36%);
+  --Dark-Raspberry: hsl(332, 51%, 32%);
 }
 
 body {
@@ -49,6 +51,11 @@ body {
   padding-bottom: 15px;
 }
 
+.wrapper h2 {
+  padding-top: 15px;
+  color: var(--Nutmeg);
+}
+
 .wrapper-preparation {
   background-color: var(--Rose-White);
   padding: 15px;
@@ -57,9 +64,34 @@ body {
 .wrapper-preparation h3 {
   font-family: Outfit, sans-serif;
   font-weight: 600;
+  color: var(--Dark-Raspberry);
 }
 
 .list-preparation {
-  padding-top: 1.5em;
-  line-height: 1.5em;
+  font-family: Outfit, sans-serif;
+  padding-top: 10px;
+  line-height: 30px;
+  margin-left: 20px;
+}
+
+.list-Ingredients {
+  font-family: Outfit, sans-serif;
+  font-weight: 400;
+  color: var(--Wenge-Brown);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 30px;
+  margin-left: 20px;
+}
+
+.list-Ingredients ::marker {
+  color: var(--Nutmeg);
+}
+
+.list-Instructions {
+  font-family: Outfit, sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 30px;
+  margin-left: 20px;
 }
