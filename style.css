@@ -40,9 +40,10 @@ body {
 
 .wrapper h1 {
   font-family: Young Serif, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   padding-top: 15px;
   padding-bottom: 15px;
+  color: var(--Dark-Charcoal);
 }
 
 .wrapper p {
@@ -54,11 +55,13 @@ body {
 .wrapper h2 {
   padding-top: 15px;
   color: var(--Nutmeg);
+  font-weight: 600;
 }
 
 .wrapper-preparation {
   background-color: var(--Rose-White);
   padding: 15px;
+  font-weight: 600;
 }
 
 .wrapper-preparation h3 {
@@ -72,6 +75,15 @@ body {
   padding-top: 10px;
   line-height: 30px;
   margin-left: 20px;
+  color: var(--Wenge-Brown);
+}
+
+.list-preparation strong {
+  color: var(--Wenge-Brown);
+}
+
+.list-preparation ::marker {
+  color: var(--Dark-Raspberry);
 }
 
 .list-Ingredients {
