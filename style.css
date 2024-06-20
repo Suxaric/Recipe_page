@@ -43,6 +43,7 @@ body {
   margin-bottom: 100px;
   width: 720px;
   background-color: var(--White);
+  border-radius: 16px;
 }
 
 .wrapper {
@@ -52,6 +53,7 @@ body {
 
 .wrapper img {
   width: 100%;
+  border-radius: 16px;
 }
 
 .wrapper h1 {
@@ -89,6 +91,7 @@ body {
   background-color: var(--Rose-White);
   padding: 15px;
   font-weight: 600;
+  border-radius: 16px;
 }
 
 .wrapper-preparation h3 {
