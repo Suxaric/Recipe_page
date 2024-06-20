@@ -45,11 +45,6 @@ body {
   background-color: var(--White);
 }
 
-/* .paragraf {
-  color: var();
-
-} */
-
 .wrapper {
   padding: 40px;
   line-height: 25px;
@@ -146,3 +141,33 @@ body {
   color: var(--Wenge-Brown);
 }
 
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  /* border: 3px solid purple; */
+}
+
+th {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  color: var(--Wenge-Brown);
+  font-weight: 400;
+}
+
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: var(--Nutmeg);
+  font-weight: 600;
+}
+
+tr {
+  border-bottom: 1px solid var(--Light-Grey);
+}
+
+tr:last-child {
+  border-bottom: none;
+}
