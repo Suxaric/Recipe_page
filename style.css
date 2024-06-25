@@ -68,6 +68,7 @@ body {
   padding-top: 25px;
   padding-bottom: 25px;
   color: var(--Nutmeg);
+  font-family: Outfit, sans-serif;
   font-weight: 600;
 }
 
@@ -182,13 +183,14 @@ tr:last-child {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
-    width: 720px;
+    width: auto;
     background-color: var(--White);
     border-radius: 0;
   }
 
   .wrapper {
     padding: 0px;
+    padding-bottom: 25px;
   }
 
   .wrapper img {
@@ -198,6 +200,7 @@ tr:last-child {
   .wrapper h1 {
     padding-left: 40px;
     padding-right: 40px;
+    line-height: 35px;;
   }
 
   .wrapper p {
@@ -205,9 +208,19 @@ tr:last-child {
     padding-right: 40px;
   }
 
+  .wrapper hr {
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid var(--Light-Grey);
+  }
+
   .wrapper-preparation {
     margin-left: 40px;
     margin-right: 40px;
+  }
+
+  .list-preparation {
+    margin-left: 0;
   }
 
   .wrapper h2 {
@@ -221,8 +234,9 @@ tr:last-child {
   }
 
   table {
-    width: 90%;
+    width: 80%;
     margin-left: 40px;
+    margin-right: 40px;
+    padding-right: 40px;
   }
-
 }
